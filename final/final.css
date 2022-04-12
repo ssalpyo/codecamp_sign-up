@@ -1,0 +1,78 @@
+body {
+	background-color: #E5E5E5;
+}
+
+.container {
+	position: absolute;
+	width: 540px;
+	height: 960px;
+	left: 690px;
+	top: 118px;
+	background: #FFFFFF;
+	border: 1px solid #AACDFF;
+	box-sizing: border-box;
+	box-shadow: 7px 7px 39px rgba(0, 104, 255, 0.25);
+	border-radius: 20px;
+}
+
+.header {
+	position: absolute;
+	width: 380px;
+	height: 47px;
+	left: 768px;
+	top: 178px;
+	font-family: 'Noto Sans CJK KR';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 47px;
+	color: #0068FF;
+}
+
+.container [name="mail"] {
+	position: absolute;
+	width: 380px;
+	height: 60px;
+	left: 768px;
+	top: 285px;
+	background: #FFFFFF;
+	border: 1px solid #0068FF;
+	box-sizing: border-box;
+	border-radius: 7px;
+}
+
+.container [name="name"] {
+	position: absolute;
+	width: 380px;
+	height: 60px;
+	left: 768px;
+	top: 365px;
+	background: #FFFFFF;
+	border: 1px solid #D2D2D2;
+	box-sizing: border-box;
+	border-radius: 7px;
+}
+
+.container [name="password"] {
+	position: absolute;
+	width: 380px;
+	height: 60px;
+	left: 768px;
+	top: 445px;
+	background: #FFFFFF;
+	border: 1px solid #D2D2D2;
+	box-sizing: border-box;
+	border-radius: 7px;
+}
+
+.container [name="password-2"] {
+	position: absolute;
+	width: 380px;
+	height: 60px;
+	left: 768px;
+	top: 525px;
+	background: #FFFFFF;
+	border: 1px solid #D2D2D2;
+	box-sizing: border-box;
+	border-radius: 7px;
+}
