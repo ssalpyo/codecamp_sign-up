@@ -9,12 +9,21 @@
 	<script defer src="./final.js"></script>
 </head>
 <body>
-	<div class="container">
-		<h1 class="header">코드캠프 회원가입</h1>
-		<input type="text" name="mail" placeholder="이메일을 입력해 주세요.">
-		<input type="text" name="name" placeholder="이름을 입력해 주세요.">
-		<input type="password" name="password" placeholder="비밀번호를 입력해 주세요.">
-		<input type="password" name="password-2" placeholder="비밀번호를 다시 입력해 주세요.">
+	<div class="wrapper">
+		<div class="title"><h1>코드캠프 회원가입</h1></div>
+		<div class="boxes">
+			<input id="email" type="text" placeholder="이메일을 입력해 주세요.">
+			<input id="name"  type="text" placeholder="이름을 입력해 주세요.">
+			<input id="password" type="password" placeholder="비밀번호를 입력해 주세요.">
+			<input id="passwordCheck" type="password" placeholder="비밀번호를 다시 입력해 주세요.">
+		</div>
+		<div class="phone">
+			<input id="phone1" type="text" size="1" maxlength="3" oninput="changePhone1()">
+			<div>-</div>
+			<input id="phone2" type="text" size="3" maxlength="4" oninput="changePhone2()">
+			<div>-</div>
+			<input id="phone3" type="text" size="3" maxlength="4" oninput="changePhone3()">
+		</div>
 	</div>
 </body>
 </html>
