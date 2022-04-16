@@ -5,7 +5,8 @@ body {
 .wrapper {
 	width: 540px;
 	height: 960px;
-	margin: 118px 690px;
+	/* margin: 118px 690px; */
+	margin: 118px 37.5%;
 	background-color: #FFFFFF;
 	border: 1px solid #AACDFF;
 	box-sizing: border-box;
