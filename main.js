@@ -53,7 +53,7 @@ processID = setInterval(function () {
 	let result = mm + ":" + ss;
 	document.getElementById("timeLimit").innerText = result;
 	time--;
-}, 1000);
+}, 100);
 };
 
 function checkCompletion(){
