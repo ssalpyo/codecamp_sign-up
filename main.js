@@ -46,10 +46,12 @@ processID = setInterval(function () {
 	if (time < 0 || document.getElementById("sendMessage").disabled) {
 		clearInterval(processID);
 		initButton();
-		alert("인증 실패");
-		document.getElementById("phone1").value = null;
-		document.getElementById("phone2").value = null;
-		document.getElementById("phone3").value = null;
+		if (time < 0){
+			alert("인증 실패");
+			document.getElementById("phone1").value = null;
+			document.getElementById("phone2").value = null;
+			document.getElementById("phone3").value = null;
+		}
 		return;
 	}
 	let mm = String(Math.floor(time / 60)).padStart(2, "0");
@@ -57,7 +59,7 @@ processID = setInterval(function () {
 	let result = mm + ":" + ss;
 	document.getElementById("timeLimit").innerText = result;
 	time--;
-}, 1000);
+}, 100);
 };
 
 function checkCompletion(){
