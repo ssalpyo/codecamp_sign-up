@@ -1,12 +1,18 @@
 body {
+	width: 1920px;
+	height: 1196px;
 	background-color: #E5E5E5;
 }
 
 .wrapper {
 	width: 540px;
 	height: 960px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -270px;
+	margin-top: -362px;
 	/* margin: 118px 690px; */
-	margin: 118px 37.5%;
 	background-color: #FFFFFF;
 	border: 1px solid #AACDFF;
 	box-sizing: border-box;
