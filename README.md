@@ -3,6 +3,7 @@
 
 [ssalpyo.github.io/sign-up-form](https://ssalpyo.github.io/sign-up-form/)
 
-<img width="792" alt="sign-up example" src="https://user-images.githubusercontent.com/72936215/163668101-37ac6dd3-a704-4741-9e54-6957b3a3d0f5.png">
+<img width="1792" alt="sign-up-1" src="https://user-images.githubusercontent.com/72936215/164646626-48579793-c56f-4bcf-9dae-0f655e70bfb0.png">
 
-<img width="784" alt="sign-up example2" src="https://user-images.githubusercontent.com/72936215/163668108-9fb3e809-56b8-40c1-8b9b-516a22a47f4d.png">
+<img width="1792" alt="sign-up-2" src="https://user-images.githubusercontent.com/72936215/164646726-65d56295-0351-4339-ab54-620c65c533fa.png">
+
